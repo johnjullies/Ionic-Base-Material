@@ -20,7 +20,8 @@
     "angular-material": "~0.10.0",
     "angular-messages": "~1.4.2",
     "jQuery": "1.9.1",
-    "robotodraft": "~1.1.0"
+    "robotodraft": "~1.1.0",
+    "ngCordova": "^0.1.27-alpha"
   },
   "authors": [
     "jethdeguzman"
