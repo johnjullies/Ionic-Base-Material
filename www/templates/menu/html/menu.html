@@ -1,0 +1,36 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-balanced material-background-nav-bar">
+            <ion-nav-buttons side="left">
+                <a class="button button-icon button-clear ion-navicon" menu-toggle="left" ng-click="toggleLeft()"></a>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+    <md-sidenav md-component-id="left" on-swipe-left="closeSideNav()" on-drag-left="closeSideNav()">
+        <!--menu section-->
+        <div class="material-background" id="toggle-menu-left-header">
+            <!--menu header section-->
+            <div class="menu-left-header">
+                <img class="user-img" src="img/profileAvatar.jpg">
+
+                <p>
+                    <span class="title">Ionic Material</span>
+                    <br/>
+                    <span class="sub-title">Material Design Application</span>
+                </p>
+            </div><!--end menu header section-->
+        </div> <!--menu content section-->
+        <ion-content id="toggle-menu-left-content">
+            <md-list>
+                <md-list-item class="menu-list-item" ng-click="navigateTo('app.dashboard')">
+                    <i class="fa fa-th-list"></i>
+                    <span>Dashboard</span>
+                </md-list-item>
+            </md-list>
+            <!--end list section-->
+        </ion-content><!--end menu content section-->
+        <!--end menu section-->
+
+    </md-sidenav>
+</ion-side-menus>
