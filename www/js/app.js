@@ -138,7 +138,7 @@ angular.module('starter', ['ionic','ngIOS9UIWebViewPatch', 'starter.controllers'
                 },
                 views: {
                     'menuContent': {
-                        templateUrl: "templates/material-user-interface/dashboard/html/dashboard.html",
+                        templateUrl: "templates/dashboard/html/dashboard.html",
                         controller: 'dashboardCtrl'
                     }
                 }
